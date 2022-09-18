@@ -4,3 +4,35 @@
 body{
     font-family: 'Poppins', sans-serif;
 }
+
+/* <!-- 3rd separate section starts --> */
+
+.border-filter{
+    filter: drop-shadow(0px 5.34229px 13.3557px rgba(0, 0, 0, 0.05));
+}
+.course-author a{
+    text-decoration: none;
+    color:#ED6B4F;
+}
+.course-info{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.filled{
+    color:#FFC014;
+}
+.empty{
+    color: #AEAEAE;
+}
+.ratings{
+    color: #A2A2A2;
+}
+.course-duration{
+    background-color: #FFE4E8;
+    border-radius: 5px;
+    padding: 5px;
+}
+.fa-clock{
+    color:#FF4A60
+}

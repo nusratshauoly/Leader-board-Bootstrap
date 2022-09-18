@@ -1,68 +1,65 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Leader-Board-Bootstrap </title>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Leader-Board-Bootstrap </title>
 
-    <!-- google font link -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;400&display=swap" rel="stylesheet">
-    <!-- css bootstrap link -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+        <!-- google font link -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;400&display=swap" rel="stylesheet">
+        <!-- font awesome link -->
+        <script src="https://kit.fontawesome.com/f4b191b67e.js" crossorigin="anonymous"></script>
+        <!-- css bootstrap link -->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
 
-    <!-- css link -->
-    <link rel="stylesheet" href="style.css">
-</head>
-<body style="background-color:#F3F1FF;">
+        <!-- css link -->
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body style="background-color:#F3F1FF;">
     
-<!-- navbar -->
-      <header>
-        <nav class="navbar navbar-expand-lg navbar-dark" style="background-color: #562EFF;">
-            <div class="container">
-              <a class="navbar-brand" href="#">
-                <img src="./images/icons/logo.png" alt="Logo" width="30" height="35" class="d-inline-block align-text-top">
-                <span class="ms-2">Idea</span>
-              </a>
-              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-              </button>
-              <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav ms-auto mb-2 mb-lg-0 d-flex align-items-center">
-                  <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="#">Home</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="#">About</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="#">Works</a>
-                  </li>
-
-                  <li class="nav-item">
-                    <a class="nav-link" href="#">
-                        <img src="./images/icons/profile.png" alt="Logo" width="30" height="35" class="d-inline-block align-text-top">
-
+        <!-- navbar -->
+        <header>
+            <nav class="navbar navbar-expand-lg navbar-dark" style="background-color: #562EFF;">
+                <div class="container">
+                    <a class="navbar-brand" href="#">
+                        <img src="./images/icons/logo.png" alt="Logo" width="30" height="35" class="d-inline-block align-text-top">
+                        <span class="ms-2">Idea</span>
                     </a>
-                  </li>
-                  
-                </ul>
-                
-              </div>
-            </div>
-          </nav>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
 
-
-      </header>
-
-      <main>
-          <section class="container bg-white rounded">
-               <div>
-                    <h4 class="text-primary my-4">Top Players</h4>
-
-                    <div class="row gy-4 pb-4">
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav ms-auto mb-2 mb-lg-0 d-flex align-items-center">
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="#">Home</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">About</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Works</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">
+                                    <img src="./images/icons/profile.png" alt="Logo" width="30" height="35" class="d-inline-block align-text-top">
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        </header>
+        
+        <main>
+        <!-- first section starts -->
+            <section class="container bg-white rounded">
+                <div>
+                    <h4 class="text-primary my-4 pt-4 ps-3 pb-3">Top Players</h4>
+                    <div class="row gy-4 pb-4 ps-3">
         <!-- first column -->
                         <div class="col-lg-4 col-md-6 col-12 d-flex align-items-center">
                             <img src="./images/players/player-1.png" alt="" width="56">
@@ -73,7 +70,6 @@
                             <img src="./images/players/player-2.png" alt="" width="56">
                             <h4 class="ms-3">Abu Sufian</h4>
                         </div>
-
         <!-- third column -->
                         <div class="col-lg-4 col-md-6 col-12 d-flex align-items-center">
                             <img src="./images/players/player-3.png" alt="" width="56">
@@ -94,29 +90,21 @@
                             <img src="./images/players/player-6.png" alt="" width="56">
                             <h4 class="ms-3">John Smith</h4>
                         </div>
-
                     </div>
-               </div>
+                </div>
 
             <hr>
         <!-- second section starts -->
-            
-            <section class="container bg-white rounded">
-
-                 <!-- trial  -->
-                 <!-- style="max-width: 540px; <img class= "rounded-start img-fluid" -->
-
                 <div>
-                    <h4 class="text-primary my-4">Top Blogs</h4>
+                    <h4 class="text-primary my-4 pb-3 ps-3">Top Blogs</h4>
                     <div class="card mb-3 border-0"> 
                         <div class="row g-4 pb-4">
-            <!-- 2nd section first div -->
-                            <div class=" col-lg-6 col-md-12 d-flex col-12 pb-0">
+        <!-- 2nd section first div -->
+                            <div class=" col-lg-6 col-md-12 d-flex col-12 pb-0 ps-5">
                                 <div class="row">
                                     <div class="col-md-6 col-12">
                                         <img src="./images/blogs/blog-1.png" alt="Course of UI/UX design" width="224" height="127">
                                     </div>
-
                                     <div class="col-md-6 col-12">
                                         <div class="card-body ps-2">
                                             <h5 class="card-title">13 of my Favourite<br> UI/UX Goodies</h5>
@@ -124,80 +112,139 @@
                                         </div>
                                     </div>
                                 </div>
-                                
+                            </div>
+        <!-- 2nd section 2nd div -->
+                            <div class=" col-lg-6 col-md-12 col-12 d-flex ps-5">
+                                <div class="row">
+                                    <div class="col-md-6 col-12">
+                                        <img src="./images/blogs/blog-2.png" alt="Course of UI cheat sheet" width="224" height="127">
+                                    </div>
+                                    <div class="col-md-6 col-12">
+                                        <div class="card-body ps-3">
+                                            <h5 class="card-title">UI cheat sheet:<br> list vs grids</h5>
+                                            <p>By <a href=""> Tess Gadd</a></p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+        <!-- 2nd section 3rd div -->
+                            <div class=" col-lg-6 col-md-12 d-flex col-12 ps-5">
+                                <div class="row">
+                                    <div class="col-md-6 col-12"> 
+                                        <img src="./images/blogs/blog-3.png" alt="Course of typography tips" width="224" height="127">
+                                    </div>
+                                    <div class="col-md-6 col-12">
+                                        <div class="card-body ps-1">
+                                            <h5 class="card-title">7 typography tips<br> for interface design</h5>
+                                            <p>By <a href=""> Jeremiah Lam</a></p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+        <!-- 2nd section 4th div -->
+                            <div class=" col-lg-6 col-md-12 d-flex col-12 ps-5">
+                                <div class="row">
+                                    <div class="col-md-6 col-12">
+                                        <img src="./images/blogs/blog-4.png" class="" alt="Corses of logo making" width="224" height="127">
+                                    </div>
+                                    <div class="col-md-6 col-12">
+                                        <div class="card-body ps-3">
+                                            <h5 class="card-title">Your logo is<br> copied</h5>
+                                            <p>By <a href=""> Ferdinand Vogler</a></p>
+                                        </div>
+                                    </div>
+                                </div>
                             </div>
 
+                        </div>
+                    </div>
+                </div> 
+            </section>
            
-
-            <!-- 2nd section 2nd div -->
-
-            <div class=" col-lg-6 col-md-12 col-12 d-flex">
-                <div class="row">
-                    <div class="col-md-6 col-12">
-                        <img src="./images/blogs/blog-2.png" alt="Course of UI cheat sheet" width="224" height="127">
-                    </div>
-
-                    <div class="col-md-6 col-12">
-                        <div class="card-body ps-3">
-                            <h5 class="card-title">UI cheat sheet:<br> list vs grids</h5>
-                            <p>By <a href=""> Tess Gadd</a></p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-
-
-             <!-- 2nd section 3rd div -->
-             <div class=" col-lg-6 col-md-12 d-flex col-12">
-                <div class="row">
-                    <div class="col-md-6 col-12"> 
-                        <img src="./images/blogs/blog-3.png" alt="Course of typography tips" width="224" height="127">
-                    </div>
-
-                    <div class="col-md-6 col-12">
-                        <div class="card-body ps-2">
-                            <h5 class="card-title">7 typography tips<br> for interface design</h5>
-                            <p>By <a href=""> Jeremiah Lam</a></p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-
-
-            <!-- 2nd section 4th div -->
-                   
-                   <div class=" col-lg-6 col-md-12 d-flex col-12">
-                    <div class="row">
-                        <div class="col-md-6 col-12">
-                            <img src="./images/blogs/blog-4.png" class="" alt="Corses of logo making" width="224" height="127">
-                        </div>
-
-                        <div class="col-md-6 col-12">
-                            <div class="card-body ps-3">
-                                <h5 class="card-title">Your logo is<br> copied</h5>
-                                <p>By <a href=""> Ferdinand Vogler</a></p>
+        <!-- 3rd separate section starts -->
+            <section class="container bg-white rounded my-3 pb-4 ps-4 pe-4">
+                <div>
+                    <h4 class="text-primary my-4 pt-4 ps-3">Latest Courses</h4>
+                    <div class="row row-cols-1 row-cols-md-3 g-4">
+        <!-- 3rd section first div -->
+                        <div class="col">
+                            <div class="card border-0 border-filter">
+                                <img src="./images/courses/course-1.png" class="card-img-top p-3 img-fluid" alt="courses image of react">
+                                    <div class="card-body pt-0">
+                                        <h5 class="card-title">React -  The Complete<br>Guide 2022</h5>
+                                        <small class="course-author"><a href=""> Ferdinand Vogler</a></small>
+                                            <div class="course-info">
+                                                <div>
+                                                    <i class="fa-solid fa-star filled"></i>
+                                                    <i class="fa-solid fa-star filled"></i>
+                                                    <i class="fa-solid fa-star filled"></i>
+                                                    <i class="fa-solid fa-star filled"></i>
+                                                    <i class="fa-solid fa-star empty"></i>
+                                                    <span class="ps-4  ratings">4.5</span>
+                                                </div>
+        
+                                                <div class="course-duration">
+                                                    <i class="fa-solid fa-clock"></i>
+                                                    01:30hr
+                                                </div>
+                                            </div>
+                                    </div>
                             </div>
                         </div>
-                    </div>
-                </div>
+        <!-- 3rd section second div -->
+                        <div class="col">
+                            <div class="card border-0 border-filter">
+                                <img src="./images/courses/course-2.png" class="card-img-top p-3 img-fluid" alt="courses image of Powerpoint">
+                                    <div class="card-body pt-0">
+                                        <h5 class="card-title">Powerpoint 2022<br>Master Powerpoint Course</h5>
+                                        <small class="course-author"><a href="">Walter Scott</a></small>
+                                            <div class="course-info">
+                                                <div>
+                                                    <i class="fa-solid fa-star filled"></i>
+                                                    <i class="fa-solid fa-star filled"></i>
+                                                    <i class="fa-solid fa-star filled"></i>
+                                                    <i class="fa-solid fa-star filled"></i>
+                                                    <i class="fa-solid fa-star empty"></i>
+                                                    <span class="ps-4 ratings">4.5</span>
+                                                </div>
 
-
-
-
-            
-        </div>
-                           
+                                                <div class="course-duration">
+                                                    <i class="fa-solid fa-clock"></i>
+                                                    01:30hr
+                                                </div>
+                                            </div>
+                                    </div>
+                            </div>
                         </div>
-                    </div> 
+        <!-- 3rd section third div -->
+                        <div class="col">
+                            <div class="card border-0 border-filter">
+                                <img src="./images/courses/course-3.png" class="card-img-top p-3 img-fluid" alt="courses image of Javascript">
+                                    <div class="card-body pt-0">
+                                        <h5 class="card-title">The Complete Javascript<br>Course 2022</h5>
+                                        <small class="course-author"><a href="">Reed Krakoff</a></small>
+                                            <div class="course-info">
+                                                <div>
+                                                    <i class="fa-solid fa-star filled"></i>
+                                                    <i class="fa-solid fa-star filled"></i>
+                                                    <i class="fa-solid fa-star filled"></i>
+                                                    <i class="fa-solid fa-star filled"></i>
+                                                    <i class="fa-solid fa-star empty"></i>
+                                                    <span class="ps-4 ratings">4.5</span>
+                                                </div>
+
+                                                <div class="course-duration">
+                                                    <i class="fa-solid fa-clock"></i>
+                                                    01:30hr
+                                                </div>
+                                            </div>
+                                    </div>
+                            </div>
+                        </div>   
+                    </div>
                 </div>
             </section>
-
-                
-
-          </section>
-      </main>
+        </main>
 
 
 
